@@ -1,0 +1,36 @@
+/*digiclub*/
+div.digiclub {
+  margin: 10px auto;
+  width: 98%;
+  height: auto;
+  background-image: radial-gradient(
+    circle,
+    #a34a38,
+    #972c3f,
+    #810e4a,
+    #610055,
+    #31095c
+  );
+  border-radius: 10px;
+}
+div.digiclub > a.logo {
+  text-align: right;
+}
+div.digiclub > a.logo > img {
+  margin-top: 4%;
+  margin-bottom: 3%;
+  width: 20%;
+  display: block;
+  margin-right: 5%;
+  border-radius: 20px;
+}
+div.digiclub > a.tag > img {
+  text-align: right;
+  width: 20%;
+  border-radius: 20px;
+  margin-top: 8px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 8px;
+  
+}

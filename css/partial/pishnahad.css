@@ -1,0 +1,38 @@
+div.pishnahad > table {
+  text-align: right;
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
+  direction: rtl;
+}
+div.pishnahad > table > tbody > tr > td > h3 {
+  text-align: center;
+  font-family: Yekan;
+  color: darkslategray;
+}
+div.pishnahad>h1{
+    font-family: Yekan;
+    font-weight: lighter;
+}
+div.pishnahad > table > tbody > tr > td > a {
+  font-size: 15px;
+  font-family: Yekan;
+  margin-top: 10px;
+  text-decoration: none;
+  margin-bottom: 3px;
+  margin-top: 2px;
+  color: aquamarine;
+  text-transform: uppercase;
+  font-weight: 200;
+  width: 90%;
+  padding: 0 10px;
+  background-color: lightslategray;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 300ms linear;
+}
+div.pishnahad > table > tbody > tr > td > a:hover {
+  color: firebrick;
+  background-color: lightcoral;
+  transform: scale(0.9, 0.9);
+}

@@ -1,0 +1,95 @@
+/*توضیحات اخریه صفحه دیجیکالا*/
+div.outro {
+  margin: 10px auto;
+  width: 100%;
+  direction: rtl;
+}
+div.outro > h1 {
+  text-align: right;
+  font-family: Yekan;
+  color: #ff0000;
+  margin-right: 5%;
+}
+div.outro > p {
+  margin-right: 5%;
+  margin-left: 8%;
+  font-family: Yekan;
+  text-align: justify;
+}
+div.outro > h2> a {
+  font-size: 20px;
+  margin-left: 3%;
+  font-family: Yekan;
+  text-decoration: none;
+  margin-top: 2px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 90%;
+  padding: 0 10px;
+  background-color: red;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 300ms linear;
+}
+div.outro > h2> a:hover {
+  background-color:white;
+  color: #ff0000;
+  transform: scale(0.9, 0.9);
+}
+div.outro > details > summary {
+  margin-right: 8%;
+  margin-left: 8%;
+  font-family: Yekan;
+  text-align: center;
+}
+div.outro > details {
+  margin-right: 6%;
+  margin-left: 6%;
+  font-family: Yekan;
+  text-align: justify;
+}
+div.outro > h3 {
+  direction: ltr;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: red;
+}
+/*Footer*/
+footer {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  background-image: linear-gradient(
+    to top,
+    #ff0000,
+    #e78200,
+    #d0b748,
+    #cadd9c,
+    #e6f9e8
+  );
+}
+nav.zemanat > div.lg {
+  display: inline-block;
+  width: 7%;
+  margin-top: 0%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+nav.zemanat > div.lg > a > img {
+  width: 100%;
+  display: inline-block;
+}
+nav.zemanat > div.lg > a > img {
+  width: 100%;
+  margin-right: 2%;
+  margin-left: 2%;
+  display: inline-block;
+}
+nav.zemanat > div.lg > a {
+  text-align: center;
+  font-family: Yekan;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}

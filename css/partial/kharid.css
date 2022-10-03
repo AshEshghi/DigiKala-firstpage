@@ -1,0 +1,21 @@
+/* خرید پستو و تاژ و اکتیدنت و مزپف*/
+div.kharid {
+  margin: 10px auto;
+  width: 100%;
+}
+div.kharid > a.aval > img {
+  width: 22.5%;
+  border-radius: 20px;
+  margin-left: 3%;
+  margin-right: 1%;
+}
+div.kharid > a.akhar > img {
+  width: 22.5%;
+  border-radius: 20px;
+  margin-right: 2%;
+}
+div.kharid > a.second > img {
+  width: 22.5%;
+  border-radius: 20px;
+  margin-right: 1%;
+}

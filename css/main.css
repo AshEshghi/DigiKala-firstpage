@@ -1,0 +1,55 @@
+/*
+    version:1.0.0
+    author: A.Eshghi
+*/
+@import "partial/setting.css";
+@import "partial/header.css";
+@import "partial/sliderone.css";
+@import "partial/digi.css";
+@import "partial/carousel.css";
+@import "partial/kharid.css";
+@import "partial/dastebandi.css";
+@import "partial/pishnahad.css";
+@import "partial/brand.css";
+@import "partial/digiclub.css";
+@import "partial/outro.css";
+@font-face {
+  font-family: Yekan;
+  src: url("../fonts/Yekan.eot");
+  src: url("../fonts/Yekan.ttf");
+  src: url("../fonts/Yekan.woff");
+}
+html{
+  scroll-behavior: smooth;
+}
+/*header balaye safhe*/
+
+div.marketoffer {
+  margin: 10px auto;
+  width: 99%;
+}
+div.marketoffer > a > img {
+  width: 100%;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+/*slider shoyande va poshak*/
+div.shoyande {
+  margin: 10px auto;
+  width: 100%;
+}
+div.shoyande > a > img {
+  width: 47.5%;
+  border-radius: 20px;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 15px;
+}
+/*digiplus*/
+div.digiplus {
+  margin: 0px auto;
+  width: 98%;
+}
+div.digiplus > a > img {
+  width: 100%;
+}

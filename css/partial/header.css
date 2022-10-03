@@ -1,0 +1,60 @@
+div.disfix {
+  position: fixed relative;
+  margin: 0 auto;
+  background-color: white;
+}
+header > a > img {
+  width: 100%;
+}
+/*logo va search bar*/
+div.headbala > a.digi > img {
+  width: 10%;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 1%;
+}
+div.headbala > a.search > img {
+  width: 88%;
+  margin-top: 3px;
+}
+/*menu bala*/
+nav.menu > h4 {
+  width: 100%;
+}
+nav.menu > h4 > a {
+  font-size: auto;
+  font-family: Yekan;
+  direction: rtl;
+  text-decoration: none;
+  display: inline;
+  margin-top: 2px;
+  color: gray;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 90%;
+  padding: 0 10px;
+  text-align: center;
+  transition: all 50ms linear;
+}
+nav.menu > h4 > a.daste {
+  margin-right: 1%;
+  margin-left: 1%;
+  font-size: auto;
+  font-family: Yekan;
+  direction: rtl;
+  text-decoration: none;
+  display: inline;
+  margin-top: 2px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 90%;
+  padding: 0 10px;
+  text-align: center;
+  transition: all 50ms linear;
+}
+nav.menu > h4 > a:hover {
+  color: dimgray;
+  border-bottom: 3px solid red;
+  transform: scale(1, 1);
+}

@@ -1,0 +1,54 @@
+/* اسلایدر پیشنهاد شگفت انگیز*/
+div.bestoffer {
+  margin: 0 auto;
+  width: 98%;
+  direction: rtl;
+}
+div.bestoffer > div.products {
+  width: 98%;
+  height: 45vh;
+  background-color: #ef3b51;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+div.swiper-slide > div.offerlogo > a > img {
+  width: 100%;
+  object-fit: contain;
+}
+div.swiper-slide > div.offerlogo {
+  background-color: #ef3b51;
+}
+div.swiper-slide {
+  flex-direction: column;
+  justify-content: center;
+}
+div.swiper-slide > a > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  background-color: white;
+  border-radius: 15px;
+}
+div.swiper-slide > a {
+  text-decoration: none;
+  color: black;
+  font-family: Yekan;
+  font-size: 18px;
+}
+/*
+div.bestoffer > div.blocks {
+  
+}
+div.bestoffer > div.blocks > a > img {
+  width: 100%;
+  border-radius: 15px;
+  object-position: center center;
+}
+div.bestoffer > div.blocks > a {
+  text-decoration: none;
+  color: black;
+  font-family: Yekan;
+  font-size: 20px;
+}
+*/
